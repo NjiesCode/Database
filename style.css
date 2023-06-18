@@ -1,0 +1,47 @@
+table {
+    background-color: linen;
+    border: 1px solid black;
+    align-items: center;
+    width: 600px;
+    line-height: 40px;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+thead {
+    color: maroon;
+    /* margin-left: 40px; */
+    column-span: 4;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+li,
+a:hover {
+
+    background-color: blue;
+    margin: 10px;
+
+}
+
+
+  
+  
